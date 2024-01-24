@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid Web</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>v
+  
+<body>
+  <section class="hero is-medium">
+    <div class="hero-head">
+      <div class="container">
+        
+                <!-- Header Code -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+
+<div class="navbar-brand">
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+          
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" style="color: #FFFFFF" href = "index.html">
+        Home
+      </a>
+
+<a class="navbar-item" style="color: #FFFFFF" href = "info.html">
+        What is COVID-19?
+      </a>
+
+<a class="navbar-item" style="color: #FFFFFF" href = "data.html">
+        Data
+      </a>
+
+      <a class="navbar-item" style="color: #FFFFFF" href = "testing.html">
+        Testing
+      </a>
+      
+      <a class="navbar-item" style="color: #FFFFFF" href = "opportunities.html">
+        Get Involved
+      </a>
+      
+    </div>
+  </div>
+    </nav>
+        
+      </div>
+    </div>
+<br>
+    <br>
+  </section>
+
+  <section class="container">
+    <div class="columns features">
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://assets.bowery.org/static-production/images/TheBoweryMissionLogo_trademarked.svg" alt="Placeholder image" class="modal-button"
+                data-target="image1">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>The Bowery Mission</h4>
+              <p>"Since the 1870s, The Bowery Mission has served New Yorkers experiencing homelessness, hunger and other crises. Each meal and every service is an invitation to residential and community programs that help clients make progress towards individual goals such as regaining sobriety, reconnecting with family and faith, and preparing for work and independent living. To empower children to thrive and succeed, we also offer year-round opportunities for enrichment for youth."</p>
+<a href="https://www.bowery.org/volunteer/" class="button is-link modal-button">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="data:image/png;base64,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">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Citymeals on Wheels</h4>
+              <p>"From delivering meals to vital wellness checks, Citymeals offers volunteer opportunities to suit all types of schedules and interests. We have established a network of caring individual, corporate and community volunteers who ensure frail aged New Yorkers receive a continuous lifeline of nourishment and companionship."</p>
+
+<a href="https://www.citymeals.org/get-involved/volunteer-with-us" class="button is-link modal-button">More</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4 modal-button" data-target="modal-image">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://images.squarespace-cdn.com/content/v1/5e6bc0f53397d50457142d46/1593503035166-4A2WWSIOBKMGXYLOD6VG/IH%252BHoriz%252BLockup%252BFINAL_Blue%252BGreen.jpg?format=1500w"
+                alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Invisible Hands Delivery</h4>
+              <p>"In just a few short months, we organized over 10,000 volunteers and delivered over $1,000,000 in groceries, medicine, and other necessities throughout New York City, Long Island, Westchester, New Jersey, and Philadelphia. Our work is only beginning. By partnering with food pantries and spreading the word in our communities, Invisible Hands has committed to expanding our free services to our neighbors that need it the most."</p>
+<a href="https://invisiblehandsdeliver.org/volunteer" class="button is-link modal-button">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns features">
+      <div class="column is-4 modal-button" data-target="modal-card">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://images.squarespace-cdn.com/content/v1/5d9685b3e6027406a62dca95/b6f5721f-4c05-4ffc-8b06-0ce7471259b7/lfoe+logo+new.png?format=1500w"
+                alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Love for the Elderly</h4>
+              <p>"Everyone deserves a mailbox full of love letters, and we’re on a mission to make that happen– we’ve sent more than 250,000 letters of love around the world.  We post about elders who want mail from you on the 1st of every month! So take a few minutes, sit down, and write a letter. Tell them about yourself, maybe share a joke or a riddle and let them know that they are loved."</p>
+<a href="https://lovefortheelderly.org/letters" class="button is-link modal-button">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://1giqgs400j4830k22r3m4wqg-wpengine.netdna-ssl.com/wp-content/uploads/crown_logo_lrg.png"
+                data-target="modal-image4">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card2">
+            <div class="content">
+              <h4>NYC Food Bank</h4>
+              <p>"Volunteers play a central role in powering Food Bank’s mission. Whether filing tax returns for low-income New Yorkers, writing a letter of hope to our pantry clients, or advocating through social media, you can make an impact in many ways with Food Bank For New York City!"</p>
+<a href="https://www.foodbanknyc.org/volunteer/" class="button is-link modal-button">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://www1.nyc.gov/assets/home/images/social/applications/mobile-app-nycservice.jpg"
+                data-target="modal-image4">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card2">
+            <div class="content">
+              <h4>NYC Service</h4>
+              <p>"Our Mission: NYC Service builds partnerships to deepen and expand civic engagement through volunteer and service programs, creating sustainable change for our city's greatest needs."
+</p>
+<a href="https://www.nycservice.org/search/index.php?cmd=widget&category_id=&keyword=virtual&zip=false&isZip=false&cmd=widget#s" class="button is-link modal-button">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns features">
+      <div class="column is-4 modal-button" data-target="modal-card">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://www1.nyc.gov/assets/fund/images/content/header/mayorsfund_logo.png"
+                alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Mayor's Fund to Advance New York City</h4>
+              <p>"The Mayor's Fund to Advance New York City is a 501(c)(3) not-for-profit organization working with 50 City agencies and offices, 300 institutional funders, and 100 community-based partners. Read the Mayor's Fund 2020 Annual Report to learn more about our partners."</p>
+<a href="https://www1.nyc.gov/site/fund/donate/donate.page" class="button is-link modal-button">Donate Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://www.newyorkvoad.org/wp-content/uploads/2021/08/VOAD-logo-square.jpg"
+                data-target="modal-image4">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card2">
+            <div class="content">
+              <h4>NYC Voluntary Organizations Active in Disaster (NYCVOAD)</h4>
+              <p>"We are a coalition of nonprofit, faith-based, and government organizations in NYC committed to working together in the areas of disaster preparedness, response, recovery, and resiliency/mitigation."</p>
+<a href="https://www.nycvoad.org/" class="button is-link modal-button">Donate Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="column is-4">
+        <div class="card is-shady">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://www.ncfp.org/wp-content/uploads/2019/11/New-York-Community-Trust_16-9-480x270.jpg"
+                data-target="modal-image4">
+            </figure>
+          </div>
+          <div class="card-content  modal-button" data-target="modal-card2">
+            <div class="content">
+              <h4>The New York Community Trust</h4>
+              <p>"A public charity, The Trust is a grantmaking foundation dedicated to improving the lives of residents of New York City and its suburbs. We bring together individuals, families, foundations, and businesses to build a better community and support nonprofits that make a difference. We apply knowledge, creativity, and resources to the most challenging issues in an effort to ensure meaningful opportunities and a better quality of life for all New Yorkers, today and tomorrow."
+</p>
+<a href="https://www.nycommunitytrust.org/give/" class="button is-link modal-button">Donate Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+    </body>
+</html>
