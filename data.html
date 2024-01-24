@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid Web</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  
+<body>
+  <section class="hero is-medium">
+    <div class="hero-head">
+      <div class="container">
+        
+              <!-- Header Code -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+
+<div class="navbar-brand">
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+          
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" style="color: #FFFFFF" href = "index.html">
+        Home
+      </a>
+
+<a class="navbar-item" style="color: #FFFFFF" href = "info.html">
+        What is COVID-19?
+      </a>
+
+<a class="navbar-item" style="color: #FFFFFF" href = "data.html">
+        Data
+      </a>
+
+      <a class="navbar-item" style="color: #FFFFFF" href = "testing.html">
+        Testing
+      </a>
+      
+      <a class="navbar-item" style="color: #FFFFFF" href = "opportunities.html">
+        Get Involved
+      </a>
+      
+    </div>
+  </div>
+    </nav>
+        
+      </div>
+    </div>
+<br>
+    <br>
+  </section>
+
+  <p class="tab" ><strong style="color: #FFFFFF">Cases</strong></p>
+   <p class="tab" style="color: #FFFFFF">Cumulative confirmed COVID-19 cases by country</p>
+  <br>
+
+<iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&facet=none&hideControls=true&Metric=Confirmed+cases&Interval=Cumulative&Relative+to+Population=false&Color+by+test+positivity=false&country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+    <br><br><p class="tab" ><strong style="color: #FFFFFF">Vaccinations</strong></p>
+   <p class="tab" style="color: #FFFFFF">People fully vacinated for COVID-19 by country</p>
+  <br>
+  <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?facet=none&Metric=People+fully+vaccinated&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=USA~ITA~CAN~DEU~GBR~FRA~JPN&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+    <br><br><p class="tab" ><strong style="color: #FFFFFF">Testing</strong></p>
+   <p class="tab" style="color: #FFFFFF">Number of COVIS-19 tests performed daily per 1,000 people by country</p>
+  <br>
+<iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?facet=none&Metric=Tests&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=USA~ITA~CAN~DEU~GBR~FRA~JPN&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+  
+    </body>
+</html>
