@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid Web</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+<body>
+  
+  <section class="hero is-medium">
+    <div class="hero-head">
+      <div class="container">
+        
+        <!-- Header Code -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+
+<div class="navbar-brand">
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+          
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" style="color: #FFFFFF" href = "index.html">
+        Home
+      </a>
+
+<a class="navbar-item" style="color: #FFFFFF" href = "info.html">
+        What is COVID-19?
+      </a>
+
+<a class="navbar-item" style="color: #FFFFFF" href = "data.html">
+        Data
+      </a>
+
+      <a class="navbar-item" style="color: #FFFFFF" href = "testing.html">
+        Testing
+      </a>
+      
+      <a class="navbar-item" style="color: #FFFFFF" href = "opportunities.html">
+        Get Involved
+      </a>
+      
+    </div>
+  </div>
+    </nav>
+        
+      </div>
+    </div>
+<br>
+    <br>
+  </section>
+
+  <section class="blog-posts">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <div class="columns featured-post is-multiline">
+            <div class="column is-12 post">
+              <article class="columns featured">
+                <div class="column is-7 post-img ">
+                  <img src="https://phil.cdc.gov//PHIL_Images/23311/23311_lores.jpg">
+                </div>
+                <div class="column is-5 featured-content va">
+                  <div>
+                    <h1 class="title post-title" style="color: #FFFFFF">What is COVID-19?</h1>
+                    <p class="post-excerpt" style="color: #FFFFFF">Coronavirus refers to the family of viruses that can cause symptoms including, but not limted to, severe acute respiratory syndrome (MERS), the common cold, and Middle East respiratory syndrome (MERS). Known as severe acute respiratory syndrome coronavirus 2 (SARS-COV-2), this disease is more commonly called COVID-19. In March of 2020, the World Heath Organization (WHO) officialy declared the COVID-19 outbreak a pandemic.</p>
+                    <br>
+                    <a href="info.html" class="button is-primary">Read More</a>
+                  </div>
+
+                </div>
+              </article>
+            </div>
+          </div>
+          <hr>
+          <div class="columns is-multiline">
+            <div class="column post is-6">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="data:image/jpeg;base64,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" 
+                    width=200%>
+                </div>
+                <div class="column is-12 featured-content ">
+
+                                    <h1 class="title post-title" style="color: #FFFFFF">Myth Busters</h1>
+                  <p class="post-excerpt" style="color: #FFFFFF">Click to read more on myths about COVID-19 and the vaccine that have been proven to be false.</p>
+                  <br>
+                  <a href="info.html" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-6">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://coronavirus.health.ny.gov/sites/g/files/oee1146/files/styles/mobile_lead/public/media/2020/03/wadsworth_lab_coronavirus_research3_1280.jpg?h=b5f6a62e&itok=AT3DQXYb"
+                    hspace=100>
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h1 class="title post-title" style="color: #FFFFFF">Cases, Vaccinations, and Testing</h1>
+                  <p class="post-excerpt" style="color: #FFFFFF">See the daily number of COVID-19 cases, vaccinations, and testing.</p>
+                  <br>
+                  <a href="data.html" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F211219233904-covid-testing-line-nyc-1217-restricted.jpg">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h1 class="title post-title" style="color: #FFFFFF">Where You Can Get Tested</h1>
+                  <p class="post-excerpt" style="color: #FFFFFF">Test & Treat site locations across New York City</p>
+                  <br>
+                  <a href="testing.html" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://www.ifrc.org/sites/default/files/styles/article_press_release_featured_image/public/Mongolia.jpg?itok=Rv8krSKK">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h1 class="title post-title" style="color: #FFFFFF">How You Can Help Out Today</h1>
+                  <p class="post-excerpt" style="color: #FFFFFF">Explore the various ways you can support those affected by COVID-19 acroos New York City.</p>
+                  <br>
+                  <a href="opportunities.html" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img src="https://image.cnbcfm.com/api/v1/image/105647699-GettyImages-144560914.jpg?v=1545852468&w=1910&h=1000">
+                </div>
+                <div class="column is-12 featured-content ">
+                  <h1 class="title post-title" style="color: #FFFFFF">Donate Today!</h1>
+                  <p class="post-excerpt" style="color: #FFFFFF">Donate goods to those affected by the COVID-19 pandemic.</p>
+                  <br>
+                  <a href="opportunities.html" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+<!--             <br><br> -->
+          </div>
+        </div>
+      </div>
+
+  </section>
+    </body>
+</html>
